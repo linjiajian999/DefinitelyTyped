@@ -22,6 +22,6 @@ export function supportsCssVariables(windowObj: Window, forceRefresh?: boolean):
  */
 export function applyPassive(globalObj?: Window, forceRefresh?: boolean): boolean|{passive: boolean};
 
-export function getMatchesProperty(HTMLElementPrototype: object): string[];
+export function getMatchesProperty(HTMLElementPrototype: object): string;
 
 export function getNormalizedEventCoords(ev: Event, pageOffset: {x: number, y: number}, clientRect: ClientRect): {x: number, y: number};
